@@ -26,17 +26,17 @@ export const Footer = () => {
 
             <div className=" mt-4 space-x-5 hidden md:flex">
               <Link href="#" className="text-white  hover:text-amber-400">
-                <AiFillFacebook />
+                <AiFillFacebook className="text-2xl" />
                 <span className="sr-only">Facebook page</span>
               </Link>
 
               <Link href="#" className="text-white hover:text-amber-400">
-                <AiFillTwitterSquare />
+                <AiFillTwitterSquare className="text-2xl" />
                 <span className="sr-only">Twitter page</span>
               </Link>
 
               <Link href="#" className="text-white hover:text-amber-400">
-                <BiLogoGmail />
+                <BiLogoGmail className="text-2xl" />
                 <span className="sr-only">Email</span>
               </Link>
             </div>
@@ -92,7 +92,7 @@ export const Footer = () => {
             <ul className="text-gray-500  font-medium">
               <li className="mb-4">
                 <Link href="#" className="hover:underline">
-                  iOS
+                  iOSk
                 </Link>
               </li>
             </ul>
@@ -106,17 +106,17 @@ export const Footer = () => {
         </span>
         <div className="flex mt-4 space-x-5    justify-center md:mt-0">
           <Link href="#" className="text-white  hover:text-amber-400">
-            <AiFillFacebook />
+            <AiFillFacebook className="text-2xl" />
             <span className="sr-only">Facebook page</span>
           </Link>
 
           <Link href="#" className="text-white hover:text-amber-400">
-            <AiFillTwitterSquare />
+            <AiFillTwitterSquare className="text-2xl" />
             <span className="sr-only">Twitter page</span>
           </Link>
 
           <Link href="#" className="text-white hover:text-amber-400">
-            <BiLogoGmail />
+            <BiLogoGmail className="text-2xl" />
             <span className="sr-only">EMAL</span>
           </Link>
         </div>
