@@ -3,8 +3,16 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
+import HeaderCarousel from "../Carousel/HeaderCarousel";
 
 export const Nav = () => {
+  const images = [
+    "https://images.unsplash.com/photo-1516655855035-d5215bcb5604?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
+    "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
+    "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
+    "https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60",
+    // Add more image paths
+  ];
   const [navOpen, setNavOpen] = useState(false);
   const [scrolledFromTop, setScrolledFromTop] = useState(false);
 
@@ -29,11 +37,11 @@ export const Nav = () => {
           !scrolledFromTop ? "h-8" : "h-8 top-0"
         } bg-green-700 text-gray-300 flex flex-row justify-between `}
       >
-        <div className="ml-8  flex flex-row items-center gap-2">
+        <div className="ml-8  flex flex-row items-center gap-1">
           <MdEmail className="icons" /> info@academics.com
         </div>
         <div className="mr-8 mt-1 flex flex-row items-center gap-1">
-          <AiFillPhone className="icons" /> + 123 456 78910
+          <AiFillPhone className="icons" /> +63123456723
         </div>
       </div>
       <header
@@ -71,10 +79,10 @@ export const Nav = () => {
             className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-green-600 text-white transform transition duration-300 ${
               !navOpen
                 ? "translate-x-full"
-                : "translate-x-0 flex flex-col gap-3 "
+                : "translate-x-0 flex flex-col gap-3"
             } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
           >
-            <li>
+            <li className="">
               <Link
                 className="links"
                 href="#header"
@@ -113,23 +121,6 @@ export const Nav = () => {
           </ul>
         </nav>
       </header>
-      <section className="pt-32 pb-16 px-8 md:px-12 bg-green-600 banner">
-        <div className="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
-          <div className="md:flex-1 md:mr-6">
-            <h1 className="font-bold text-4xl md:text-5xl text-white leading-tight">
-              aspernatur magni vitae veritatis.
-            </h1>
-            <p className="mt-4 text-lg text-white">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Reiciendis aspernatur magni vitae veritatis.
-            </p>
-          </div>
-          <div className="md:flex-1">S</div>
-        </div>
-      </section>
-      {/*      <section id="features" className="min-h-screen"></section>
-      <section id="about" className="min-h-screen bg-gray-100"></section>
-      <section id="contact" className="min-h-screen"></section> */}
     </div>
   );
 };

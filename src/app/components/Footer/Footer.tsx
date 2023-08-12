@@ -63,23 +63,23 @@ export const Footer = () => {
             <h2 className="mb-6 text-xl font-semibold text-gray-200 uppercase">
               Featured Links
             </h2>
-            <ul className="text-gray-500  font-medium">
-              <li className="mb-4">
+            <ul className="text-white font-medium">
+              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
-                  Discord Server
+                  Home
                 </Link>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
                   Twitter
                 </Link>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
                   Facebook
                 </Link>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
                   Contact Us
                 </Link>
