@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { MdEmail } from "react-icons/md";
+import { AiFillPhone } from "react-icons/ai";
 
 export const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -22,16 +24,27 @@ export const Nav = () => {
   };
   return (
     <div>
-      <div className={`${!scrolledFromTop ? "h-8" : "h-8 top-0"}`}>dada</div>
+      <div
+        className={`${
+          !scrolledFromTop ? "h-8" : "h-8 top-0"
+        } bg-green-700 text-gray-300 flex flex-row justify-between `}
+      >
+        <div className="ml-8  flex flex-row items-center gap-2">
+          <MdEmail className="icons" /> info@academics.com
+        </div>
+        <div className="mr-8 mt-1 flex flex-row items-center gap-1">
+          <AiFillPhone className="icons" /> + 123 456 78910
+        </div>
+      </div>
       <header
-        className={`fixed w-full bg-blue-500 flex justify-between items-center px-4 md:px-12 transition-all duration-200 ${
+        className={`fixed w-full bg-green-600 flex md:justify-around justify-between items-center px-4 md:px-12 transition-all duration-200 ${
           !scrolledFromTop ? "h-8 mt-3" : "h-14 top-0"
         }`}
       >
         <Link href="/">
           <p
-            className={`h-12 transform origin-left transition duration-200 text-xl ${
-              !scrolledFromTop ? "scale-75 mt-3" : "scale-100"
+            className={`h-12 transform origin-left transition duration-200 text-xl text-white ${
+              !scrolledFromTop ? "scale-75 mt-3" : "scale-100 "
             }`}
           >
             LOGO
@@ -55,7 +68,7 @@ export const Nav = () => {
             </svg>
           </button>
           <ul
-            className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-blue-500 text-white transform transition duration-300 ${
+            className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-green-600 text-white transform transition duration-300 ${
               !navOpen ? "translate-x-full" : "translate-x-0"
             } md:relative md:flex md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
           >
@@ -82,7 +95,7 @@ export const Nav = () => {
           </ul>
         </nav>
       </header>
-      <section className="pt-32 pb-16 px-8 md:px-12 bg-blue-500">
+      <section className="pt-32 pb-16 px-8 md:px-12 bg-green-600">
         <div className="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
           <div className="md:flex-1 md:mr-6">
             <h1 className="font-bold text-4xl md:text-5xl text-white leading-tight">
