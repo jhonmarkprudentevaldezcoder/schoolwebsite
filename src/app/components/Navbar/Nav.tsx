@@ -23,7 +23,7 @@ export const Nav = () => {
     setNavOpen(!navOpen);
   };
   return (
-    <div>
+    <div id="header">
       <div
         className={`${
           !scrolledFromTop ? "h-8" : "h-8 top-0"
@@ -41,10 +41,10 @@ export const Nav = () => {
           !scrolledFromTop ? "h-20 " : "h-14 top-0"
         }`}
       >
-        <Link href="/">
+        <Link href="#header">
           <p
-            className={`h-12 transform origin-left transition duration-200 text-xl text-white ${
-              !scrolledFromTop ? "scale-75 mt-3" : "scale-100 "
+            className={`h-12 transform origin-left mt-4 transition duration-200 text-xl text-white ${
+              !scrolledFromTop ? "scale-75" : "scale-100 "
             }`}
           >
             LOGO
@@ -69,26 +69,44 @@ export const Nav = () => {
           </button>
           <ul
             className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-green-600 text-white transform transition duration-300 ${
-              !navOpen ? "translate-x-full" : "translate-x-0"
-            } md:relative md:flex md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
+              !navOpen
+                ? "translate-x-full"
+                : "translate-x-0 flex flex-col gap-3 "
+            } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
           >
             <li>
-              <Link href="#" onClick={() => setNavOpen(false)}>
+              <Link
+                className="links"
+                href="#header"
+                onClick={() => setNavOpen(false)}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#features" onClick={() => setNavOpen(false)}>
+              <Link
+                className="links"
+                href="#features"
+                onClick={() => setNavOpen(false)}
+              >
                 Features
               </Link>
             </li>
             <li>
-              <Link href="#about" onClick={() => setNavOpen(false)}>
+              <Link
+                className="links"
+                href="#about"
+                onClick={() => setNavOpen(false)}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link href="#contact" onClick={() => setNavOpen(false)}>
+              <Link
+                className="links"
+                href="#contact"
+                onClick={() => setNavOpen(false)}
+              >
                 Contact
               </Link>
             </li>
@@ -106,9 +124,7 @@ export const Nav = () => {
               Reiciendis aspernatur magni vitae veritatis.
             </p>
           </div>
-          <div className="md:flex-1">
-           S
-          </div>
+          <div className="md:flex-1">S</div>
         </div>
       </section>
       {/*      <section id="features" className="min-h-screen"></section>
