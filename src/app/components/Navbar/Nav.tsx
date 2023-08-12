@@ -38,7 +38,7 @@ export const Nav = () => {
       </div>
       <header
         className={`fixed w-full bg-green-600 flex md:justify-around justify-between items-center px-4 md:px-12 transition-all duration-200 ${
-          !scrolledFromTop ? "h-8 mt-3" : "h-14 top-0"
+          !scrolledFromTop ? "h-20 " : "h-14 top-0"
         }`}
       >
         <Link href="/">
@@ -95,7 +95,7 @@ export const Nav = () => {
           </ul>
         </nav>
       </header>
-      <section className="pt-32 pb-16 px-8 md:px-12 bg-green-600">
+      <section className="pt-32 pb-16 px-8 md:px-12 bg-green-600 banner">
         <div className="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
           <div className="md:flex-1 md:mr-6">
             <h1 className="font-bold text-4xl md:text-5xl text-white leading-tight">
