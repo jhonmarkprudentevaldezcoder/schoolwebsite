@@ -29,11 +29,11 @@ export const Footer = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <footer className="bg-green-700">
+    <footer className="bg-green-700" id="contact">
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div className="p-5 md:p-0">
-            <h2 className="mb-6 text-xl font-semibold text-white  uppercase flex flex-row items-center gap-3 ">
+            <h2 className="mb-6 text-2  xl font-semibold text-white  uppercase flex flex-row items-center gap-3 ">
               <HiAcademicCap className="icons text-4xl" /> ACADEMICS
             </h2>
             <p className="text-white">
@@ -64,22 +64,22 @@ export const Footer = () => {
               Featured Links
             </h2>
             <ul className="text-white font-medium">
-              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
+              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
                   Home
                 </Link>
               </li>
-              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
+              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
                   Twitter
                 </Link>
               </li>
-              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
+              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
                   Facebook
                 </Link>
               </li>
-              <li className="mb-4 w-100 bg-green-900 p-3 rounded-md">
+              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
                 <Link href="#" className="hover:underline">
                   Contact Us
                 </Link>
@@ -117,7 +117,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="px-4 py-4 mb w-100 bg-green-700  md:flex md:items-center md:justify-around">
+      <div className="px-4 py-4 mb w-100 bg-green-800  md:flex md:items-center md:justify-around">
         <span className="text-sm text-white  sm:text-center">
           © 2023 - 2023. All Rights Reserved.{" "}
           <span className="text-white ml-16"> geronimo</span>

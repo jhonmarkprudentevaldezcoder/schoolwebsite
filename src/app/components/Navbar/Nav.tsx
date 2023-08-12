@@ -82,7 +82,7 @@ export const Nav = () => {
                 : "translate-x-0 flex flex-col gap-3"
             } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
           >
-            <li className="">
+            <li className="w-100 md:bg-green-600 bg-green-800 p-3">
               <Link
                 className="links"
                 href="#header"
@@ -91,7 +91,7 @@ export const Nav = () => {
                 Home
               </Link>
             </li>
-            <li>
+            <li className=" md:bg-green-600 w-100 bg-green-800 p-3">
               <Link
                 className="links"
                 href="#features"
@@ -100,7 +100,7 @@ export const Nav = () => {
                 Features
               </Link>
             </li>
-            <li>
+            <li className="md:bg-green-600 w-100 bg-green-800 p-3">
               <Link
                 className="links"
                 href="#about"
@@ -109,7 +109,7 @@ export const Nav = () => {
                 About
               </Link>
             </li>
-            <li>
+            <li className="md:bg-green-600 w-100 bg-green-800 p-3">
               <Link
                 className="links"
                 href="#contact"
