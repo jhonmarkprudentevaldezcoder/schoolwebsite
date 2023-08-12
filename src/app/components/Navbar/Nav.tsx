@@ -25,13 +25,13 @@ export const Nav = () => {
       <div className={`${!scrolledFromTop ? "h-8" : "h-8 top-0"}`}>dada</div>
       <header
         className={`fixed w-full bg-blue-500 flex justify-between items-center px-4 md:px-12 transition-all duration-200 ${
-          !scrolledFromTop ? "h-8 mt-2" : "h-14 top-0"
+          !scrolledFromTop ? "h-8 mt-3" : "h-14 top-0"
         }`}
       >
         <Link href="/">
           <p
-            className={`h-12 transform origin-left transition duration-200 ${
-              !scrolledFromTop ? "scale-25" : "scale-75"
+            className={`h-12 transform origin-left transition duration-200 text-xl ${
+              !scrolledFromTop ? "scale-75 mt-3" : "scale-100"
             }`}
           >
             LOGO
