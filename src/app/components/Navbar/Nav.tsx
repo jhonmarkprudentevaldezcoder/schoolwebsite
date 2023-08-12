@@ -99,7 +99,7 @@ export const Nav = () => {
         <div className="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
           <div className="md:flex-1 md:mr-6">
             <h1 className="font-bold text-4xl md:text-5xl text-white leading-tight">
-              The Quickest way to Chat with your Loved Ones
+              aspernatur magni vitae veritatis.
             </h1>
             <p className="mt-4 text-lg text-white">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -107,10 +107,7 @@ export const Nav = () => {
             </p>
           </div>
           <div className="md:flex-1">
-            <img
-              src="https://res.cloudinary.com/thirus/image/upload/v1632162912/logos/chat_ys7mog.svg"
-              alt="Chat with loved ones"
-            />
+           S
           </div>
         </div>
       </section>
