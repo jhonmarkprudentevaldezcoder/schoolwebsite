@@ -117,7 +117,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="px-4 py-4 mb w-100 bg-green-800  md:flex md:items-center md:justify-around">
+      <div className="py-4 w-100 bg-green-800  md:flex md:items-center md:justify-around">
         <span className="text-sm text-white  sm:text-center">
           © 2023 - 2023. All Rights Reserved.{" "}
           <span className="text-white ml-16"> geronimo</span>
@@ -138,17 +138,16 @@ export const Footer = () => {
             <span className="sr-only">EMAL</span>
           </Link>
         </div>
-
-        <div>
-          <button
-            onClick={scrollToTop}
-            className={`fixed bottom-4 right-4 ${
-              scrolled ? "block" : "hidden"
-            } bg-green-500 text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
-          >
-            <BsFillArrowUpCircleFill className="text-2xl" />
-          </button>
-        </div>
+      </div>
+      <div>
+        <button
+          onClick={scrollToTop}
+          className={`fixed bottom-4 right-4 ${
+            scrolled ? "block" : "hidden"
+          } bg-green-500 text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
+        >
+          <BsFillArrowUpCircleFill className="text-2xl" />
+        </button>
       </div>
     </footer>
   );
