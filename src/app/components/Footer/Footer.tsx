@@ -97,7 +97,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-green-900 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
