@@ -39,7 +39,7 @@ export const Nav = () => {
         </div>
         <header
           className={`fixed w-full bg-red-700 flex md:justify-center md:gap-9 justify-between items-center px-4 md:px-12 transition-all duration-200 ${
-            !scrolledFromTop ? "h-20 " : "h-14 top-0"
+            !scrolledFromTop ? "h-20 " : "h-14 top-0 shadow-lg"
           }`}
         >
           <Link href="#header">

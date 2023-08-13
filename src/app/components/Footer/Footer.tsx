@@ -35,7 +35,7 @@ export const Footer = () => {
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
             <div className="p-5 ">
               <h2 className="mb-6 text-2xl font-semibold text-white  uppercase flex flex-row items-center gap-3">
-                <HiAcademicCap className="icons text-4xl" /> ACADEMICS
+                <HiAcademicCap className="icons text-4xl" /> CHAMAE ACADEMICS
               </h2>
               <p className="text-white">
                 Praesent vel rutrum purus. Nam vel dui eu sus duis dignissim
