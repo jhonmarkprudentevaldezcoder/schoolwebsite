@@ -29,96 +29,128 @@ export const Footer = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <footer className="bg-green-700" id="contact">
-      <div className="mx-auto w-full max-w-screen-xl">
-        <div className="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-          <div className="p-5 md:p-0">
-            <h2 className="mb-6 text-2  xl font-semibold text-white  uppercase flex flex-row items-center gap-3 ">
-              <HiAcademicCap className="icons text-4xl" /> ACADEMICS
-            </h2>
-            <p className="text-white">
-              Praesent vel rutrum purus. Nam vel dui eu sus duis dignissim
-              dignissim. Suspenetey disse at ros tecongueconsequat.Fusce sit
-              amet rna feugiat.
-            </p>
+    <>
+      <footer className="bg-red-800" id="contact">
+        <div className="mx-auto w-full max-w-screen-xl">
+          <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
+            <div className="p-5 ">
+              <h2 className="mb-6 text-2xl font-semibold text-white  uppercase flex flex-row items-center gap-3">
+                <HiAcademicCap className="icons text-4xl" /> ACADEMICS
+              </h2>
+              <p className="text-white">
+                Praesent vel rutrum purus. Nam vel dui eu sus duis dignissim
+                dignissim. Suspenetey disse at ros tecongueconsequat.Fusce sit
+                amet rna feugiat.
+              </p>
 
-            <div className=" mt-4 space-x-5 hidden md:flex">
-              <Link href="#" className="text-white  hover:text-amber-400">
-                <AiFillFacebook className="text-2xl" />
-                <span className="sr-only">Facebook page</span>
-              </Link>
+              <div className=" mt-4 space-x-5 hidden md:flex">
+                <Link href="#" className="text-white  hover:text-amber-400">
+                  <AiFillFacebook className="text-2xl" />
+                  <span className="sr-only">Facebook page</span>
+                </Link>
 
-              <Link href="#" className="text-white hover:text-amber-400">
-                <AiFillTwitterSquare className="text-2xl" />
-                <span className="sr-only">Twitter page</span>
-              </Link>
+                <Link href="#" className="text-white hover:text-amber-400">
+                  <AiFillTwitterSquare className="text-2xl" />
+                  <span className="sr-only">Twitter page</span>
+                </Link>
 
-              <Link href="#" className="text-white hover:text-amber-400">
-                <BiLogoGmail className="text-2xl" />
-                <span className="sr-only">Email</span>
-              </Link>
+                <Link href="#" className="text-white hover:text-amber-400">
+                  <BiLogoGmail className="text-2xl" />
+                  <span className="sr-only">Email</span>
+                </Link>
+              </div>
+            </div>
+            <div className="ml-2">
+              <h2 className="mt-5 mb-3 font-semibold text-white  uppercase">
+                Featured Links
+              </h2>
+              <ul className="text-white font-medium items-center md:grid md:grid-cols-2 mt-5">
+                <li className="mb-1 w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                  <Link
+                    href="#"
+                    className="hover:underline flex flex-row gap-3 items-center"
+                  >
+                    <HiAcademicCap className="icons text-xl" /> Home
+                  </Link>
+                </li>
+                <li className="mb-1 w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                  <Link
+                    href="#"
+                    className="hover:underline  flex flex-row gap-3 items-center"
+                  >
+                    <HiAcademicCap className="icons text-xl" /> Twitter
+                  </Link>
+                </li>
+                <li className="mb-1 w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                  <Link
+                    href="#"
+                    className="hover:underline  flex flex-row gap-3 items-center"
+                  >
+                    <HiAcademicCap className="icons text-xl" /> Facebook
+                  </Link>
+                </li>
+                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                  <Link
+                    href="#"
+                    className="hover:underline  flex flex-row gap-3 items-center"
+                  >
+                    <HiAcademicCap className="icons text-xl" /> Contact Us
+                  </Link>
+                </li>
+                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-green-900 p-3 rounded-md">
+                  <Link
+                    href="#"
+                    className="hover:underline  flex flex-row gap-3 items-center"
+                  >
+                    <HiAcademicCap className="icons text-xl" /> Contact Us
+                  </Link>
+                </li>
+                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                  <Link
+                    href="#"
+                    className="hover:underline  flex flex-row gap-3 items-center"
+                  >
+                    <HiAcademicCap className="icons text-xl" /> Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="mt-5  mb-4 text-xl font-semibold text-gray-200 uppercase ">
+                Information
+              </h2>
+              <ul className="text-gray-200 font-sans font-medium">
+                <li className="mb-2">
+                  <span className="flex flex-row items-center gap-3 ">
+                    <AiFillPhone className="icons" /> (+63) 800 433 633
+                  </span>
+                </li>
+                <li className="mb-2">
+                  <span className="flex flex-row items-center gap-3">
+                    <MdEmail className="icons" /> info@gmail.com
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div className="p-5 mt-5">
+              <HiAcademicCap className="icons text-9xl " />
             </div>
           </div>
-          <div>
-            <h2 className="mb-6 text-xl font-semibold text-gray-200 uppercase">
-              Featured Links
-            </h2>
-            <ul className="text-white font-medium">
-              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
-                <Link href="#" className="hover:underline">
-                  Home
-                </Link>
-              </li>
-              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
-                <Link href="#" className="hover:underline">
-                  Twitter
-                </Link>
-              </li>
-              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
-                <Link href="#" className="hover:underline">
-                  Facebook
-                </Link>
-              </li>
-              <li className="mb-4 w-100 md:bg-green-700 md:p-0 bg-green-900 p-3 rounded-md">
-                <Link href="#" className="hover:underline">
-                  Contact Us
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-xl font-semibold text-gray-200 uppercase ">
-              Information
-            </h2>
-            <ul className="text-gray-200 font-sans font-medium">
-              <li className="mb-4">
-                <span className="flex flex-row items-center gap-3 ">
-                  <AiFillPhone className="icons" /> (01) 800 433 633
-                </span>
-              </li>
-              <li className="mb-4">
-                <span className="flex flex-row items-center gap-3">
-                  <MdEmail className="icons" /> info@bostonea.com
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-200 uppercase ">
-              Newsletter
-            </h2>
-            <ul className="text-gray-500  font-medium">
-              <li className="mb-4">
-                <Link href="#" className="hover:underline">
-                  iOSk
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
-      </div>
-      <div className="py-4 w-100 bg-green-800  md:flex md:items-center md:justify-around">
-        <span className="text-sm text-white  sm:text-center">
+
+        <div>
+          <button
+            onClick={scrollToTop}
+            className={`fixed bottom-4 right-4 ${
+              scrolled ? "block" : "hidden"
+            } bg-red-500 text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
+          >
+            <BsFillArrowUpCircleFill className="text-2xl" />
+          </button>
+        </div>
+      </footer>
+      <div className="py-2 w-100 bg-red-900  md:flex md:items-center md:justify-around">
+        <span className="text-sm text-white  sm:text-center p-2">
           © 2023 - 2023. All Rights Reserved.{" "}
           <span className="text-white ml-16"> geronimo</span>
         </span>
@@ -139,16 +171,6 @@ export const Footer = () => {
           </Link>
         </div>
       </div>
-      <div>
-        <button
-          onClick={scrollToTop}
-          className={`fixed bottom-4 right-4 ${
-            scrolled ? "block" : "hidden"
-          } bg-green-500 text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
-        >
-          <BsFillArrowUpCircleFill className="text-2xl" />
-        </button>
-      </div>
-    </footer>
+    </>
   );
 };
