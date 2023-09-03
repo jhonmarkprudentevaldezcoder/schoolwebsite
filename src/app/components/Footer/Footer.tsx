@@ -9,11 +9,15 @@ import {
   AiFillTwitterSquare,
 } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
+import { ImLocation2 } from "react-icons/im";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 export const Footer = () => {
   const [scrolled, setScrolled] = useState(false);
-
+  const emailAddress = "wawaes.109480@deped.gov.ph";
+  const sendhandleClick = () => {
+    window.location.href = `mailto:${emailAddress}`;
+  };
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -35,7 +39,8 @@ export const Footer = () => {
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
             <div className="p-5 ">
               <h2 className="mb-6 text-2xl font-semibold text-white  uppercase flex flex-row items-center gap-3">
-                <HiAcademicCap className="icons text-4xl" /> CHAMAE ACADEMICS
+                <HiAcademicCap className="icons text-4xl" /> DepEd Tayo Wawa
+                ES-Rizal
               </h2>
               <p className="text-white">
                 Praesent vel rutrum purus. Nam vel dui eu sus duis dignissim
@@ -169,11 +174,15 @@ export const Footer = () => {
           </Link>
 
           <Link href="#" className="text-white hover:text-amber-400">
-            <AiFillTwitterSquare className="text-2xl" />
-            <span className="sr-only">Twitter page</span>
+            <ImLocation2 className="text-2xl" />
+            <span className="sr-only">Location</span>
           </Link>
 
-          <Link href="#" className="text-white hover:text-amber-400">
+          <Link
+            href={"#header"}
+            onClick={sendhandleClick}
+            className="text-white hover:text-amber-400"
+          >
             <BiLogoGmail className="text-2xl" />
             <span className="sr-only">EMAL</span>
           </Link>
