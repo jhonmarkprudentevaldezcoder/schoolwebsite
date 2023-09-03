@@ -39,7 +39,7 @@ export const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
             <div className="p-5 shrink w-100">
-              <h2 className="mb-6 text-2xl font-semibold md:font-bold text-slate-200  uppercase flex flex-row items-center gap-3">
+              <h2 className="mb-6 text-2xl font-semibold md:font-bold text-slate-200 uppercase flex flex-row items-center gap-3">
                 {/*    <HiAcademicCap className="icons text-4xl" /> */}
                 <Image
                   src={"/images/logo.png"}
@@ -165,38 +165,41 @@ export const Footer = () => {
             onClick={scrollToTop}
             className={`fixed bottom-4 right-4 ${
               scrolled ? "block" : "hidden"
-            } bg-[#051c40] text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
+            } bg-[#193055] text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
           >
             <BsFillArrowUpCircleFill className="text-2xl" />
           </button>
         </div>
       </footer>
       <div className="py-2 w-100 bg-[#071b3d]  md:flex md:items-center md:justify-around">
-        <span className="text-sm text-white  sm:text-center p-2">
-          © 2023 - 2023. All Rights Reserved.{" "}
-          <span className="text-white ml-16"> DepEd Tayo Wawa ES-Rizal</span>
+        <span className="text-sm text-gray-400  sm:text-center p-2">
+          © 2023 - 2023. All Rights Reserved.
+          <span className="text-gray-300 ml-2  text-sm">
+            {" "}
+            DepEd Tayo Wawa ES-Rizal
+          </span>
         </span>
         <div className="flex mt-4 space-x-5    justify-center md:mt-0">
           <Link
             href="https://www.facebook.com/DepEdTayoWES109480?mibextid=ZbWKwL"
             target="_blank"
-            className="text-white  hover:text-amber-400"
+            className="text-gray-400  hover:text-amber-400 text-sm"
           >
-            <AiFillFacebook className="text-2xl" />
+            <AiFillFacebook className="text-xl" />
             <span className="sr-only">Facebook page</span>
           </Link>
 
-          <Link href="#" className="text-white hover:text-amber-400">
-            <ImLocation2 className="text-2xl" />
+          <Link href="#" className="text-gray-400 text-sm hover:text-amber-400">
+            <ImLocation2 className="text-xl" />
             <span className="sr-only">Location</span>
           </Link>
 
           <Link
             href={"#header"}
             onClick={sendhandleClick}
-            className="text-white hover:text-amber-400"
+            className="text-gray-400 text-sm hover:text-amber-400"
           >
-            <BiLogoGmail className="text-2xl" />
+            <BiLogoGmail className="text-xl" />
             <span className="sr-only">EMAL</span>
           </Link>
         </div>
