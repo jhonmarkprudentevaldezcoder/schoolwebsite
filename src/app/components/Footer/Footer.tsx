@@ -37,8 +37,8 @@ export const Footer = () => {
     <>
       <footer className="bg-[#051c40]" id="contact">
         <div className="mx-auto w-full max-w-screen-xl">
-          <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
-            <div className="p-5 shrink w-100">
+          <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-2 lg:grid-cols-3">
+            <div className="p-5 ">
               <h2 className="mb-6 text-xl font-semibold md:font-semibold text-slate-200 uppercase flex flex-row items-center gap-3">
                 {/*    <HiAcademicCap className="icons text-4xl" /> */}
                 <Image
@@ -79,7 +79,7 @@ export const Footer = () => {
               <h2 className="mt-5 mb-3 font-semibold text-slate-200  uppercase">
                 Featured Links
               </h2>
-              <ul className="text-white  items-center md:grid md:grid-cols-2 mt-5">
+              <ul className="text-white  items-center md:grid md:grid-cols-2  mt-5">
                 <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
                     href="#"
@@ -148,15 +148,6 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-5 mt-5">
-              {/*    <HiAcademicCap className="icons text-9xl " /> */}
-              {/*  <Image
-                src={"/images/logo.png"}
-                width={100}
-                height={100}
-                alt="logo"
-              /> */}
-            </div>
           </div>
         </div>
 
@@ -175,7 +166,6 @@ export const Footer = () => {
         <span className="text-sm text-gray-400  sm:text-center p-2">
           © 2023 - 2023. All Rights Reserved.
           <span className="text-gray-300 ml-2  text-sm">
-            {" "}
             DepEd Tayo Wawa ES-Rizal
           </span>
         </span>
