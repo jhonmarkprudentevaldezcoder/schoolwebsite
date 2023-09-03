@@ -10,7 +10,7 @@ export default function Welcome() {
         </h2>
         <p className="p-0 text-sm">
           Tmply dummy text of the printing and typesetting industry. Lorem Ipsum
-          has been theindustry's standard dummy text ever since the 1500s, when
+          has been theindustrys standard dummy text ever since the 1500s, when
           an unknown printer took.
         </p>
       </div>
@@ -23,7 +23,7 @@ export default function Welcome() {
             Scholarship Facility
           </span>
           <p className="text-sm">
-            Dorem Ipsum has been the industry's standard dummy text ever since
+            Dorem Ipsum has been the industrys standard dummy text ever since
             the en an unknown printer galley dear.
           </p>
         </div>
@@ -35,7 +35,7 @@ export default function Welcome() {
             Skilled Lecturers
           </span>
           <p className="text-sm">
-            Dorem Ipsum has been the industry's standard dummy text ever since
+            Dorem Ipsum has been the industrys standard dummy text ever since
             the en an unknown printer galley dear.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function Welcome() {
             Book Library & Store
           </span>
           <p className="text-sm">
-            Dorem Ipsum has been the industry's standard dummy text ever since
+            Dorem Ipsum has been the industrys standard dummy text ever since
             the en an unknown printer galley dear.
           </p>
         </div>

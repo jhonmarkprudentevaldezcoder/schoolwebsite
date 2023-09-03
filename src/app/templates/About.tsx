@@ -26,7 +26,7 @@ export default function About() {
             </span>
             <p>
               Tmply dummy text of the printing and typesetting indust Lorem
-              Ipsum has been theindustry's standard dummy text ever since simply
+              Ipsum has been theindustrys standard dummy text ever since simply
               dummy text of the printing and etypesetting industry. Lorem Ipsum
               has been the induststandard dummy text ever since en an unknown
               printer took a galley of type scrambledmaining.
@@ -38,7 +38,7 @@ export default function About() {
             </span>
             <p>
               Tmply dummy text of the printing and typesetting indust Lorem
-              Ipsum has been theindustry's standard dummy text ever since simply
+              Ipsum has been theindustrys standard dummy text ever since simply
               dummy text of the printing and etypesetting industry. Lorem Ipsum
               has been the induststandard dummy text ever since en an unknown
               printer took a galley of type scrambledmaining.
