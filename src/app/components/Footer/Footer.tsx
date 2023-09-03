@@ -39,7 +39,7 @@ export const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
             <div className="p-5 shrink w-100">
-              <h2 className="mb-6 text-2xl font-semibold md:font-bold text-slate-200 uppercase flex flex-row items-center gap-3">
+              <h2 className="mb-6 text-xl font-semibold md:font-semibold text-slate-200 uppercase flex flex-row items-center gap-3">
                 {/*    <HiAcademicCap className="icons text-4xl" /> */}
                 <Image
                   src={"/images/logo.png"}
@@ -60,17 +60,17 @@ export const Footer = () => {
                   target="_blank"
                   className="text-gray-200  hover:text-amber-400"
                 >
-                  <AiFillFacebook className="text-2xl" />
+                  <AiFillFacebook className="text-xl" />
                   <span className="sr-only">Facebook page</span>
                 </Link>
 
                 <Link href="#" className="text-gray-200 hover:text-amber-400">
-                  <AiFillTwitterSquare className="text-2xl" />
+                  <AiFillTwitterSquare className="text-xl" />
                   <span className="sr-only">Location</span>
                 </Link>
 
                 <Link href="#" className="text-gray-200 hover:text-amber-400">
-                  <BiLogoGmail className="text-2xl" />
+                  <BiLogoGmail className="text-xl" />
                   <span className="sr-only">Email</span>
                 </Link>
               </div>
