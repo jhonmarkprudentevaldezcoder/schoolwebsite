@@ -183,13 +183,13 @@ export const Footer = () => {
           <Link
             href="https://www.facebook.com/DepEdTayoWES109480?mibextid=ZbWKwL"
             target="_blank"
-            className="text-gray-400  hover:text-amber-400 text-sm"
+            className="text-gray-400  hover:text-amber-600 text-sm"
           >
             <AiFillFacebook className="text-xl" />
             <span className="sr-only">Facebook page</span>
           </Link>
 
-          <Link href="#" className="text-gray-400 text-sm hover:text-amber-400">
+          <Link href="#" className="text-gray-400 text-sm hover:text-amber-600">
             <ImLocation2 className="text-xl" />
             <span className="sr-only">Location</span>
           </Link>
@@ -197,7 +197,7 @@ export const Footer = () => {
           <Link
             href={"#header"}
             onClick={sendhandleClick}
-            className="text-gray-400 text-sm hover:text-amber-400"
+            className="text-gray-400 text-sm hover:text-amber-600"
           >
             <BiLogoGmail className="text-xl" />
             <span className="sr-only">EMAL</span>

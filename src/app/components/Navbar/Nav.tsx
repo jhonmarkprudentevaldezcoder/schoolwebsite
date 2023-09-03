@@ -45,10 +45,10 @@ export const Nav = () => {
             !scrolledFromTop ? "h-20 " : "h-14 top-0 shadow-lg"
           }`}
         >
-          <Link href="#header" className="flex flex-row items-center gap-3">
+          <Link href={"/"} className="flex flex-row items-center gap-3">
             <Image src={"/images/logo.png"} width={40} height={40} alt="logo" />
             <p
-              className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-xl text-[#051c40] font-semibold  ${
+              className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-base text-[#051c40] font-semibold  ${
                 !scrolledFromTop ? "scale-60" : "scale-90"
               }`}
             >
