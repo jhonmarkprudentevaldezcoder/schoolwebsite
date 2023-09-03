@@ -44,7 +44,11 @@ export const Footer = () => {
               </p>
 
               <div className=" mt-4 space-x-5 hidden md:flex">
-                <Link href="#" className="text-white  hover:text-amber-400">
+                <Link
+                  href="https://www.facebook.com/DepEdTayoWES109480?mibextid=ZbWKwL"
+                  target="_blank"
+                  className="text-white  hover:text-amber-400"
+                >
                   <AiFillFacebook className="text-2xl" />
                   <span className="sr-only">Facebook page</span>
                 </Link>
@@ -155,7 +159,11 @@ export const Footer = () => {
           <span className="text-white ml-16"> geronimo</span>
         </span>
         <div className="flex mt-4 space-x-5    justify-center md:mt-0">
-          <Link href="#" className="text-white  hover:text-amber-400">
+          <Link
+            href="https://www.facebook.com/DepEdTayoWES109480?mibextid=ZbWKwL"
+            target="_blank"
+            className="text-white  hover:text-amber-400"
+          >
             <AiFillFacebook className="text-2xl" />
             <span className="sr-only">Facebook page</span>
           </Link>
