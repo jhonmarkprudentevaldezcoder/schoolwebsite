@@ -91,7 +91,7 @@ export const Nav = () => {
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
-                  href="#header"
+                  href="#About"
                   onClick={() => setNavOpen(false)}
                 >
                   About us
