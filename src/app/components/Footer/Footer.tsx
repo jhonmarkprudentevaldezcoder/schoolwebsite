@@ -34,7 +34,7 @@ export const Footer = () => {
   };
   return (
     <>
-      <footer className="bg-gray-300 " id="contact">
+      <footer className="bg-gray-200 " id="contact">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
             <div className="p-5 ">
@@ -74,7 +74,7 @@ export const Footer = () => {
                 Featured Links
               </h2>
               <ul className="text-white font-medium items-center md:grid md:grid-cols-2 mt-5">
-                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline flex flex-row gap-3 items-center"
@@ -82,7 +82,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Home
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -90,7 +90,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Twitter
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -98,7 +98,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Facebook
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -106,7 +106,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -114,7 +114,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
