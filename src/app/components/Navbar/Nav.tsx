@@ -10,7 +10,7 @@ export const Nav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolledFromTop(window.pageYOffset >= 50);
+      setScrolledFromTop(window.scrollY >= 50);
     };
 
     window.addEventListener("scroll", handleScroll);
