@@ -35,7 +35,7 @@ export const Footer = () => {
   };
   return (
     <>
-      <footer className="bg-[#051c40]" id="contact">
+      <footer className="bg-[#051c40]" id="Footer">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-2 lg:grid-cols-3">
             <div className="p-5 ">

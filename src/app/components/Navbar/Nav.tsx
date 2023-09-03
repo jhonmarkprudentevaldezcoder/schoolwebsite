@@ -11,7 +11,7 @@ export const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
   const [scrolledFromTop, setScrolledFromTop] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleScroll = () => {
       setScrolledFromTop(window.scrollY >= 50);
     };
