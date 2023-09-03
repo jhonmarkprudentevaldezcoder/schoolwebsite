@@ -30,10 +30,10 @@ export const Nav = () => {
             !scrolledFromTop ? "h-8" : "h-8 top-0"
           } bg-red-800 text-gray-300 flex flex-row justify-around `}
         >
-          <div className="ml-8  flex flex-row items-center gap-1">
-            <MdEmail className="icons" /> info@academics.com
+          <div className="ml-8  flex flex-row items-center gap-1 text-sm">
+            <MdEmail className="icons" /> wawaes.109480@deped.gov.ph
           </div>
-          <div className="mr-8 mt-1 flex flex-row items-center gap-1">
+          <div className="mr-8 mt-1 flex flex-row items-center gap-1 text-sm">
             <AiFillPhone className="icons" /> +63123456723
           </div>
         </div>

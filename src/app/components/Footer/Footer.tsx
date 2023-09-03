@@ -131,12 +131,13 @@ export const Footer = () => {
               <ul className="text-gray-200 font-sans font-medium">
                 <li className="mb-2">
                   <span className="flex flex-row items-center gap-3 ">
-                    <AiFillPhone className="icons" /> (+63) 800 433 633
+                    <ImLocation2 className="icons" /> Sitio Wawa, San Rafael,
+                    Rodriguez, Rizal
                   </span>
                 </li>
                 <li className="mb-2">
                   <span className="flex flex-row items-center gap-3">
-                    <MdEmail className="icons" /> info@gmail.com
+                    <MdEmail className="icons" /> wawaes.109480@deped.gov.ph
                   </span>
                 </li>
               </ul>
@@ -161,7 +162,7 @@ export const Footer = () => {
       <div className="py-2 w-100 bg-red-900  md:flex md:items-center md:justify-around">
         <span className="text-sm text-white  sm:text-center p-2">
           © 2023 - 2023. All Rights Reserved.{" "}
-          <span className="text-white ml-16"> geronimo</span>
+          <span className="text-white ml-16"> DepEd Tayo Wawa ES-Rizal</span>
         </span>
         <div className="flex mt-4 space-x-5    justify-center md:mt-0">
           <Link
