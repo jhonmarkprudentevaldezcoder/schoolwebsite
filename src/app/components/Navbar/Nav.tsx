@@ -77,7 +77,7 @@ export const Nav = () => {
                 !navOpen ? "translate-x-full" : "translate-x-0 flex flex-col"
               } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
             >
-              <li className="w-100 md:bg-gray-50 bg-gray-50 px-3 flex flex-row items-center gap-2 text-sm rounded-md">
+              <li className="w-100 md:bg-gray-50 bg-gray-50 ml-10 flex flex-row items-center gap-2 text-sm rounded-md">
                 <ImHome className="text-gray-800" />
                 <Link
                   className="links"
@@ -87,7 +87,7 @@ export const Nav = () => {
                   HOME
                 </Link>
               </li>
-              <li className=" md:bg-gray-50 w-100 bg-gray-50 px-3 flex flex-row items-center gap-2 text-sm rounded-md">
+              <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
@@ -97,7 +97,7 @@ export const Nav = () => {
                   About us
                 </Link>
               </li>
-              <li className=" md:bg-gray-50 w-100 bg-gray-50 px-3 flex flex-row items-center gap-2 text-sm rounded-md">
+              <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
