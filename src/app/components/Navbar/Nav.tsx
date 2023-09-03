@@ -28,7 +28,7 @@ export const Nav = () => {
         <div
           className={`${
             !scrolledFromTop ? "h-8" : "h-8 top-0"
-          } bg-gray-200 text-slate-900 flex flex-row justify-around `}
+          } bg-gray-200 text-slate-600 flex flex-row justify-around `}
         >
           <div className="ml-8  flex flex-row items-center gap-1 text-sm font-bold">
             <MdEmail className="icons" /> wawaes.109480@deped.gov.ph
@@ -69,7 +69,7 @@ export const Nav = () => {
               </svg>
             </button>
             <ul
-              className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-gray-200 text-white transform transition duration-300 ${
+              className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-gray-100 text-white transform transition duration-300 ${
                 !navOpen
                   ? "translate-x-full"
                   : "translate-x-0 flex flex-col gap-3"

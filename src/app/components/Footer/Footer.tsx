@@ -34,15 +34,15 @@ export const Footer = () => {
   };
   return (
     <>
-      <footer className="bg-red-800" id="contact">
+      <footer className="bg-gray-300 " id="contact">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
             <div className="p-5 ">
-              <h2 className="mb-6 text-2xl font-semibold text-white  uppercase flex flex-row items-center gap-3">
+              <h2 className="mb-6 text-2xl font-semibold md:font-bold text-slate-900  uppercase flex flex-row items-center gap-3">
                 <HiAcademicCap className="icons text-4xl" /> DepEd Tayo Wawa
                 ES-Rizal
               </h2>
-              <p className="text-white">
+              <p className="text-slate-900">
                 Praesent vel rutrum purus. Nam vel dui eu sus duis dignissim
                 dignissim. Suspenetey disse at ros tecongueconsequat.Fusce sit
                 amet rna feugiat.
@@ -70,11 +70,11 @@ export const Footer = () => {
               </div>
             </div>
             <div className="ml-2">
-              <h2 className="mt-5 mb-3 font-semibold text-white  uppercase">
+              <h2 className="mt-5 mb-3 font-semibold text-slate-900  uppercase">
                 Featured Links
               </h2>
               <ul className="text-white font-medium items-center md:grid md:grid-cols-2 mt-5">
-                <li className="mb-1 w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline flex flex-row gap-3 items-center"
@@ -82,7 +82,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Home
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -90,7 +90,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Twitter
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -98,7 +98,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Facebook
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -106,7 +106,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -114,7 +114,7 @@ export const Footer = () => {
                     <HiAcademicCap className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-red-800 md:p-0 bg-red-900 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-200 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -125,10 +125,10 @@ export const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mt-5  mb-4 text-xl font-semibold text-gray-200 uppercase ">
+              <h2 className="mt-5  mb-4 text-xl font-semibold text-slate-900 uppercase ">
                 Information
               </h2>
-              <ul className="text-gray-200 font-sans font-medium">
+              <ul className="text-slate-900 font-sans font-medium">
                 <li className="mb-2">
                   <span className="flex flex-row items-center gap-3 ">
                     <ImLocation2 className="icons" /> Sitio Wawa, San Rafael,
@@ -153,13 +153,13 @@ export const Footer = () => {
             onClick={scrollToTop}
             className={`fixed bottom-4 right-4 ${
               scrolled ? "block" : "hidden"
-            } bg-red-500 text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
+            } bg-gray-500 text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
           >
             <BsFillArrowUpCircleFill className="text-2xl" />
           </button>
         </div>
       </footer>
-      <div className="py-2 w-100 bg-red-900  md:flex md:items-center md:justify-around">
+      <div className="py-2 w-100 bg-gray-600  md:flex md:items-center md:justify-around">
         <span className="text-sm text-white  sm:text-center p-2">
           © 2023 - 2023. All Rights Reserved.{" "}
           <span className="text-white ml-16"> DepEd Tayo Wawa ES-Rizal</span>
