@@ -87,7 +87,7 @@ export const Nav = () => {
               <li className=" md:bg-red-700 w-100 bg-red-800 p-3">
                 <Link
                   className="links"
-                  href="#features"
+                  href="#header"
                   onClick={() => setNavOpen(false)}
                 >
                   Features
@@ -96,7 +96,7 @@ export const Nav = () => {
               <li className="md:bg-red-700 w-100 bg-red-800 p-3">
                 <Link
                   className="links"
-                  href="#about"
+                  href="#header"
                   onClick={() => setNavOpen(false)}
                 >
                   About
@@ -105,7 +105,7 @@ export const Nav = () => {
               <li className="md:bg-red-700 w-100 bg-red-800 p-3">
                 <Link
                   className="links"
-                  href="#contact"
+                  href="#header"
                   onClick={() => setNavOpen(false)}
                 >
                   Contact
