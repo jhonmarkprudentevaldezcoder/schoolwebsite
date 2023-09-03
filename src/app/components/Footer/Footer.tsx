@@ -11,6 +11,7 @@ import {
 import { BiLogoGmail } from "react-icons/bi";
 import { ImLocation2 } from "react-icons/im";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import Image from "next/image";
 
 export const Footer = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -37,39 +38,44 @@ export const Footer = () => {
       <footer className="bg-gray-200 " id="contact">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
-            <div className="p-5 ">
+            <div className="p-5 shrink w-100">
               <h2 className="mb-6 text-2xl font-semibold md:font-bold text-slate-900  uppercase flex flex-row items-center gap-3">
-                <HiAcademicCap className="icons text-4xl" /> DepEd Tayo Wawa
-                ES-Rizal
+                {/*    <HiAcademicCap className="icons text-4xl" /> */}
+                <Image
+                  src={"/images/logo.png"}
+                  width={70}
+                  height={70}
+                  alt="logo"
+                />
+                DepEd Tayo Wawa ES-Rizal
               </h2>
               <p className="text-slate-900">
-                Praesent vel rutrum purus. Nam vel dui eu sus duis dignissim
-                dignissim. Suspenetey disse at ros tecongueconsequat.Fusce sit
-                amet rna feugiat.
+                “Education is the key to success in life, and teachers make a
+                lasting impact in the lives of their students”(Solomon Ortiz).
               </p>
 
               <div className=" mt-4 space-x-5 hidden md:flex">
                 <Link
                   href="https://www.facebook.com/DepEdTayoWES109480?mibextid=ZbWKwL"
                   target="_blank"
-                  className="text-white  hover:text-amber-400"
+                  className="text-gray-900  hover:text-amber-400"
                 >
                   <AiFillFacebook className="text-2xl" />
                   <span className="sr-only">Facebook page</span>
                 </Link>
 
-                <Link href="#" className="text-white hover:text-amber-400">
+                <Link href="#" className="text-gray-900 hover:text-amber-400">
                   <AiFillTwitterSquare className="text-2xl" />
-                  <span className="sr-only">Twitter page</span>
+                  <span className="sr-only">Location</span>
                 </Link>
 
-                <Link href="#" className="text-white hover:text-amber-400">
+                <Link href="#" className="text-gray-900 hover:text-amber-400">
                   <BiLogoGmail className="text-2xl" />
                   <span className="sr-only">Email</span>
                 </Link>
               </div>
             </div>
-            <div className="ml-2">
+            <div className="ml-2 ">
               <h2 className="mt-5 mb-3 font-semibold text-slate-900  uppercase">
                 Featured Links
               </h2>
@@ -143,7 +149,13 @@ export const Footer = () => {
               </ul>
             </div>
             <div className="p-5 mt-5">
-              <HiAcademicCap className="icons text-9xl " />
+              {/*    <HiAcademicCap className="icons text-9xl " /> */}
+              {/*  <Image
+                src={"/images/logo.png"}
+                width={100}
+                height={100}
+                alt="logo"
+              /> */}
             </div>
           </div>
         </div>
