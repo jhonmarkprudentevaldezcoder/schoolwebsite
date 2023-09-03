@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
+import { ImHome } from "react-icons/im";
 import Image from "next/image";
 
 export const Nav = () => {
@@ -47,7 +48,7 @@ export const Nav = () => {
             <Image src={"/images/logo.png"} width={40} height={40} alt="logo" />
             <p
               className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-xl text-slate-900 ${
-                !scrolledFromTop ? "scale-75" : "scale-100 "
+                !scrolledFromTop ? "scale-60" : "scale-90"
               }`}
             >
               DEPED TAYO WAWA ES-RIZAL
@@ -77,7 +78,8 @@ export const Nav = () => {
                   : "translate-x-0 flex flex-col gap-3"
               } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
             >
-              <li className="w-100 md:bg-gray-100 bg-gray-100 p-3">
+              <li className="w-100 md:bg-gray-100 bg-gray-100 p-3 flex flex-row items-center gap-2">
+                <ImHome className="text-gray-800" />
                 <Link
                   className="links"
                   href="#header"
