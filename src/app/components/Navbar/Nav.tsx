@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import { ImHome } from "react-icons/im";
+import { BsFillHouseGearFill } from "react-icons/bs";
 import Image from "next/image";
 
 export const Nav = () => {
@@ -30,24 +31,24 @@ export const Nav = () => {
         <div
           className={`${
             !scrolledFromTop ? "h-8" : "h-8 top-0"
-          } bg-gray-200 text-slate-600 flex flex-row justify-around `}
+          } bg-[#051c40] text-slate-300 flex flex-row justify-around `}
         >
-          <div className="ml-8  flex flex-row items-center gap-1 text-sm font-bold">
-            <MdEmail className="icons" /> wawaes.109480@deped.gov.ph
+          <div className="ml-8  flex flex-row items-center gap-3 text-sm ">
+            <MdEmail className="icons" /> <p>wawaes.109480@deped.gov.ph</p>
           </div>
-          <div className="mr-8 mt-1 flex flex-row items-center gap-1 text-sm font-bold ">
+          <div className="mr-8 mt-1 flex flex-row items-center gap-1 text-sm  ">
             <AiFillPhone className="icons" /> +63123456723
           </div>
         </div>
         <header
-          className={`fixed w-full bg-gray-100 flex md:justify-center md:gap-9 justify-between items-center px-4 md:px-12 transition-all duration-200 ${
+          className={`fixed w-full bg-gray-50 flex md:justify-center md:gap-9 justify-between items-center px-4 md:px-12 transition-all duration-200 ${
             !scrolledFromTop ? "h-20 " : "h-14 top-0 shadow-lg"
           }`}
         >
           <Link href="#header" className="flex flex-row items-center gap-3">
             <Image src={"/images/logo.png"} width={40} height={40} alt="logo" />
             <p
-              className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-xl text-slate-900 ${
+              className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-xl text-[#051c40] font-semibold  ${
                 !scrolledFromTop ? "scale-60" : "scale-90"
               }`}
             >
@@ -72,32 +73,33 @@ export const Nav = () => {
               </svg>
             </button>
             <ul
-              className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-gray-100 text-white transform transition duration-300 ${
+              className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-gray-50 text-white transform transition duration-300 ${
                 !navOpen
                   ? "translate-x-full"
                   : "translate-x-0 flex flex-col gap-3"
               } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
             >
-              <li className="w-100 md:bg-gray-100 bg-gray-100 p-3 flex flex-row items-center gap-2">
+              <li className="w-100 md:bg-gray-50 bg-gray-100 p-3 flex flex-row items-center gap-2 text-sm">
                 <ImHome className="text-gray-800" />
                 <Link
                   className="links"
                   href="#header"
                   onClick={() => setNavOpen(false)}
                 >
-                  Home
+                  HOME
                 </Link>
               </li>
-              <li className=" md:bg-gray-100 w-100 bg-gray-100 p-3">
+              <li className=" md:bg-gray-50 w-100 bg-gray-100 p-3 flex flex-row items-center gap-2 text-sm">
+                <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
                   href="#header"
                   onClick={() => setNavOpen(false)}
                 >
-                  Features
+                  About us
                 </Link>
               </li>
-              <li className="md:bg-gray-100 w-100 bg-gray-100 p-3">
+              <li className="md:bg-gray-50 w-100 bg-gray-100 p-3 text-sm">
                 <Link
                   className="links"
                   href="#header"
@@ -106,7 +108,7 @@ export const Nav = () => {
                   About
                 </Link>
               </li>
-              <li className="md:bg-gray-100 w-100 bg-gray-100 p-3">
+              <li className="md:bg-gray-50 w-100 bg-gray-100 p-3 text-sm">
                 <Link
                   className="links"
                   href="#header"

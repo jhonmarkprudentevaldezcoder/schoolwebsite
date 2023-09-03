@@ -10,7 +10,7 @@ import {
 } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
 import { ImLocation2 } from "react-icons/im";
-import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import { BsFillArrowUpCircleFill, BsArrowBarRight } from "react-icons/bs";
 import Image from "next/image";
 
 export const Footer = () => {
@@ -35,11 +35,11 @@ export const Footer = () => {
   };
   return (
     <>
-      <footer className="bg-gray-200 " id="contact">
+      <footer className="bg-[#051c40]" id="contact">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-4">
             <div className="p-5 shrink w-100">
-              <h2 className="mb-6 text-2xl font-semibold md:font-bold text-slate-900  uppercase flex flex-row items-center gap-3">
+              <h2 className="mb-6 text-2xl font-semibold md:font-bold text-slate-200  uppercase flex flex-row items-center gap-3">
                 {/*    <HiAcademicCap className="icons text-4xl" /> */}
                 <Image
                   src={"/images/logo.png"}
@@ -49,7 +49,7 @@ export const Footer = () => {
                 />
                 DepEd Tayo Wawa ES-Rizal
               </h2>
-              <p className="text-slate-900">
+              <p className="text-slate-200">
                 “Education is the key to success in life, and teachers make a
                 lasting impact in the lives of their students”(Solomon Ortiz).
               </p>
@@ -58,83 +58,83 @@ export const Footer = () => {
                 <Link
                   href="https://www.facebook.com/DepEdTayoWES109480?mibextid=ZbWKwL"
                   target="_blank"
-                  className="text-gray-900  hover:text-amber-400"
+                  className="text-gray-200  hover:text-amber-400"
                 >
                   <AiFillFacebook className="text-2xl" />
                   <span className="sr-only">Facebook page</span>
                 </Link>
 
-                <Link href="#" className="text-gray-900 hover:text-amber-400">
+                <Link href="#" className="text-gray-200 hover:text-amber-400">
                   <AiFillTwitterSquare className="text-2xl" />
                   <span className="sr-only">Location</span>
                 </Link>
 
-                <Link href="#" className="text-gray-900 hover:text-amber-400">
+                <Link href="#" className="text-gray-200 hover:text-amber-400">
                   <BiLogoGmail className="text-2xl" />
                   <span className="sr-only">Email</span>
                 </Link>
               </div>
             </div>
             <div className="ml-2 ">
-              <h2 className="mt-5 mb-3 font-semibold text-slate-900  uppercase">
+              <h2 className="mt-5 mb-3 font-semibold text-slate-200  uppercase">
                 Featured Links
               </h2>
-              <ul className="text-white font-medium items-center md:grid md:grid-cols-2 mt-5">
-                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
+              <ul className="text-white  items-center md:grid md:grid-cols-2 mt-5">
+                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline flex flex-row gap-3 items-center"
                   >
-                    <HiAcademicCap className="icons text-xl" /> Home
+                    <BsArrowBarRight className="icons text-xl" /> Home
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
                   >
-                    <HiAcademicCap className="icons text-xl" /> Twitter
+                    <BsArrowBarRight className="icons text-xl" /> Twitter
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
                   >
-                    <HiAcademicCap className="icons text-xl" /> Facebook
+                    <BsArrowBarRight className="icons text-xl" /> Facebook
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
                   >
-                    <HiAcademicCap className="icons text-xl" /> Contact Us
+                    <BsArrowBarRight className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
                   >
-                    <HiAcademicCap className="icons text-xl" /> Contact Us
+                    <BsArrowBarRight className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-gray-200 md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
                   >
-                    <HiAcademicCap className="icons text-xl" /> Contact Us
+                    <BsArrowBarRight className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mt-5  mb-4 text-xl font-semibold text-slate-900 uppercase ">
+              <h2 className="mt-5 text-base  mb-4  font-semibold text-slate-200 uppercase ">
                 Information
               </h2>
-              <ul className="text-slate-900 font-sans font-medium">
+              <ul className="text-slate-200 text-sm font-sans font-medium">
                 <li className="mb-2">
                   <span className="flex flex-row items-center gap-3 ">
                     <ImLocation2 className="icons" /> Sitio Wawa, San Rafael,
@@ -165,13 +165,13 @@ export const Footer = () => {
             onClick={scrollToTop}
             className={`fixed bottom-4 right-4 ${
               scrolled ? "block" : "hidden"
-            } bg-gray-500 text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
+            } bg-[#051c40] text-white rounded-full p-2  hover:bg-green-600 transition-all duration-300`}
           >
             <BsFillArrowUpCircleFill className="text-2xl" />
           </button>
         </div>
       </footer>
-      <div className="py-2 w-100 bg-gray-600  md:flex md:items-center md:justify-around">
+      <div className="py-2 w-100 bg-[#071b3d]  md:flex md:items-center md:justify-around">
         <span className="text-sm text-white  sm:text-center p-2">
           © 2023 - 2023. All Rights Reserved.{" "}
           <span className="text-white ml-16"> DepEd Tayo Wawa ES-Rizal</span>
