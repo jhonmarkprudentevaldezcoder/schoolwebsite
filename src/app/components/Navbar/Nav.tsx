@@ -73,13 +73,11 @@ export const Nav = () => {
               </svg>
             </button>
             <ul
-              className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-gray-50 text-white transform transition duration-300 ${
-                !navOpen
-                  ? "translate-x-full"
-                  : "translate-x-0 flex flex-col gap-3"
+              className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-gray-200 md:bg-gray-50 text-white transform transition duration-300 ${
+                !navOpen ? "translate-x-full" : "translate-x-0 flex flex-col"
               } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
             >
-              <li className="w-100 md:bg-gray-50 bg-gray-100 p-3 flex flex-row items-center gap-2 text-sm">
+              <li className="w-100 md:bg-gray-50 bg-gray-50 px-3 flex flex-row items-center gap-2 text-sm rounded-md">
                 <ImHome className="text-gray-800" />
                 <Link
                   className="links"
@@ -89,7 +87,7 @@ export const Nav = () => {
                   HOME
                 </Link>
               </li>
-              <li className=" md:bg-gray-50 w-100 bg-gray-100 p-3 flex flex-row items-center gap-2 text-sm">
+              <li className=" md:bg-gray-50 w-100 bg-gray-50 px-3 flex flex-row items-center gap-2 text-sm rounded-md">
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
@@ -99,22 +97,14 @@ export const Nav = () => {
                   About us
                 </Link>
               </li>
-              <li className="md:bg-gray-50 w-100 bg-gray-100 p-3 text-sm">
+              <li className=" md:bg-gray-50 w-100 bg-gray-50 px-3 flex flex-row items-center gap-2 text-sm rounded-md">
+                <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
                   href="#header"
                   onClick={() => setNavOpen(false)}
                 >
-                  About
-                </Link>
-              </li>
-              <li className="md:bg-gray-50 w-100 bg-gray-100 p-3 text-sm">
-                <Link
-                  className="links"
-                  href="#header"
-                  onClick={() => setNavOpen(false)}
-                >
-                  Contact
+                  About us
                 </Link>
               </li>
             </ul>

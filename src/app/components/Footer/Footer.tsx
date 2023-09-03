@@ -80,7 +80,7 @@ export const Footer = () => {
                 Featured Links
               </h2>
               <ul className="text-white  items-center md:grid md:grid-cols-2 mt-5">
-                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline flex flex-row gap-3 items-center"
@@ -88,7 +88,7 @@ export const Footer = () => {
                     <BsArrowBarRight className="icons text-xl" /> Home
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -96,7 +96,7 @@ export const Footer = () => {
                     <BsArrowBarRight className="icons text-xl" /> Twitter
                   </Link>
                 </li>
-                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -104,7 +104,7 @@ export const Footer = () => {
                     <BsArrowBarRight className="icons text-xl" /> Facebook
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -112,7 +112,7 @@ export const Footer = () => {
                     <BsArrowBarRight className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -120,7 +120,7 @@ export const Footer = () => {
                     <BsArrowBarRight className="icons text-xl" /> Contact Us
                   </Link>
                 </li>
-                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-gray-300 p-3 rounded-md">
+                <li className="mb-1  w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
                     href="#"
                     className="hover:underline  flex flex-row gap-3 items-center"
@@ -171,7 +171,7 @@ export const Footer = () => {
           </button>
         </div>
       </footer>
-      <div className="py-2 w-100 bg-[#071b3d]  md:flex md:items-center md:justify-around">
+      <div className="py-2 w-100 bg-[#0b1525]  md:flex md:items-center md:justify-around">
         <span className="text-sm text-gray-400  sm:text-center p-2">
           © 2023 - 2023. All Rights Reserved.
           <span className="text-gray-300 ml-2  text-sm">
