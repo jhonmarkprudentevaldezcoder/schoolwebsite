@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div id="About" className="mb-12">
       <div
-        className="h-80 bg-gradient-to-r from-blue-900 to-blue-500 relative"
+        className="h-80 bg-gradient-to-r from-blue-900 to-blue-500  "
         style={{
           backgroundImage: "url('/images/bga.jpg')",
           backgroundRepeat: "no-repeat",
@@ -20,8 +20,8 @@ export default function About() {
 
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col p-4 gap-8 md:w-1/2 lg:w-3/4">
-          <div className="flex flex-col gap-5">
-            <span className="font-bold text-[#051c40] text-3xl uppercase">
+          <div className="flex flex-col gap-5 md:p-5 lg:p-12   ">
+            <span className="font-bold text-[#051c40] text-3xl uppercase ">
               Who We Are
             </span>
             <p>
@@ -32,7 +32,7 @@ export default function About() {
               printer took a galley of type scrambledmaining.
             </p>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 md:p-5 lg:p-12">
             <span className="font-bold text-[#051c40] text-3xl uppercase">
               What We Do
             </span>
@@ -48,7 +48,7 @@ export default function About() {
 
         <div className="md:w-1/2 p-5 flex items-center">
           <div
-            className="h-80 bg-gradient-to-r from-blue-900 to-blue-500 relative w-full p-5"
+            className="h-80 bg-gradient-to-r from-blue-900 to-blue-500  w-full p-5"
             style={{
               backgroundImage: "url('/images/about.jpg')",
               backgroundRepeat: "no-repeat",
