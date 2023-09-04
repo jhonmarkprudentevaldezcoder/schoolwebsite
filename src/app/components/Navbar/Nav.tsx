@@ -46,7 +46,13 @@ export const Nav = () => {
           }`}
         >
           <Link href={"/"} className="flex flex-row items-center gap-3">
-            <Image src={"/images/logo.png"} width={40} height={40} alt="logo" />
+            <Image
+              src={"/images/final.jpg"}
+              width={55}
+              height={55}
+              alt="logo"
+              className="rounded-full"
+            />
             <p
               className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-base text-[#283c5d] font-bold  ${
                 !scrolledFromTop ? "scale-60" : "scale-90"
@@ -79,6 +85,7 @@ export const Nav = () => {
             >
               <li className="w-100 md:bg-gray-50 bg-gray-50 ml-10 flex flex-row items-center gap-2 text-sm rounded-md">
                 <ImHome className="text-gray-800" />
+
                 <Link
                   className="links"
                   href="#header"

@@ -9,7 +9,7 @@ export default function About() {
         style={{
           backgroundImage: "url('/images/bga.jpg')",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover", // Replace with the actual image path
+          backgroundSize: "cover",
         }}
       ></div>
 
@@ -47,7 +47,7 @@ export default function About() {
             style={{
               backgroundImage: "url('/images/about.jpg')",
               backgroundRepeat: "no-repeat",
-              backgroundSize: "cover", // Replace with the actual image path
+              backgroundSize: "cover",
             }}
           >
             <div className="bottom-0 px-4 py-3 bg-gray-500/50 hover:bg-gray-600/50 transition ease-in-out duration-75 delay-75 hover:cursor-pointer w-full">
