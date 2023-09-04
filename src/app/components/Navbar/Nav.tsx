@@ -11,7 +11,7 @@ export const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
   const [scrolledFromTop, setScrolledFromTop] = useState(false);
 
-  useEffect(() => { 
+  useEffect(() => {
     const handleScroll = () => {
       setScrolledFromTop(window.scrollY >= 50);
     };
@@ -48,7 +48,7 @@ export const Nav = () => {
           <Link href={"/"} className="flex flex-row items-center gap-3">
             <Image src={"/images/logo.png"} width={40} height={40} alt="logo" />
             <p
-              className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-base text-[#051c40] font-semibold  ${
+              className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-base text-[#283c5d] font-bold  ${
                 !scrolledFromTop ? "scale-60" : "scale-90"
               }`}
             >
@@ -94,17 +94,17 @@ export const Nav = () => {
                   href="#About"
                   onClick={() => setNavOpen(false)}
                 >
-                  About us
+                  ABOUT
                 </Link>
               </li>
               <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
-                  href="#header"
+                  href="#Contact"
                   onClick={() => setNavOpen(false)}
                 >
-                  About us
+                  CONTACT
                 </Link>
               </li>
             </ul>

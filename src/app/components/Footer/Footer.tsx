@@ -35,7 +35,7 @@ export const Footer = () => {
   };
   return (
     <>
-      <footer className="bg-[#051c40]" id="Footer">
+      <footer className="bg-[#051c40]" id="Contact">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-2 lg:grid-cols-3">
             <div className="p-5 ">
@@ -90,10 +90,10 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
                   <Link
-                    href="#"
+                    href="#About"
                     className="hover:underline  flex flex-row gap-3 items-center"
                   >
-                    <BsArrowBarRight className="icons text-xl" /> Twitter
+                    <BsArrowBarRight className="icons text-xl" /> About us
                   </Link>
                 </li>
                 <li className="mb-1 w-100 md:bg-[#051c40] md:p-0 bg-[#1c2f4e] p-3 rounded-md">
