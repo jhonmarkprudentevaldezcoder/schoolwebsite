@@ -3,12 +3,12 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="About" className="mb-12 mt-12 ">
+    <div id="About" className="mb-12 mt-12">
       <div
-        className="h-80 bg-gray-500/50"
+        className="h-96 bg-gray-200/50 bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/bga.jpg')",
-          backgroundRepeat: "no-repeat",
+          backgroundImage: "url('/images/bgmatatag.jpg')",
+          backgroundPosition: "center",
           backgroundSize: "cover",
         }}
       ></div>
