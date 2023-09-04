@@ -35,6 +35,13 @@ export const Footer = () => {
   };
   return (
     <>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.683417709534!2d121.18231107625708!3d14.730482173881214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bcbc82480359%3A0xc45163ae289e22aa!2sSitio%20Wawa%20Health%20Center!5e0!3m2!1sen!2sph!4v1693805509683!5m2!1sen!2sph"
+        width="600"
+        height="450"
+        className="border-none w-full px-5 py-2"
+        loading="lazy"
+      ></iframe>
       <footer className="bg-[#051c40]" id="Contact">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-1 gap-2 px-9 py-6 lg:py-16 md:grid-cols-2 lg:grid-cols-3">

@@ -41,7 +41,7 @@ export const Nav = () => {
           </div>
         </div>
         <header
-          className={`fixed w-full bg-gray-50 flex md:justify-center md:gap-9 justify-between items-center px-4 md:px-12 transition-all duration-200 ${
+          className={`fixed w-full bg-gray-50 flex md:gap-9 justify-between items-center px-4 md:px-12 transition-all duration-200 ${
             !scrolledFromTop ? "h-20 " : "h-14 top-0 shadow-lg"
           }`}
         >
@@ -54,7 +54,7 @@ export const Nav = () => {
               className="rounded-full"
             />
             <p
-              className={`h-12 transform origin-left mt-4 transition md:mr-10 duration-200 text-base text-[#283c5d] font-bold  ${
+              className={`h-12 md:hidden lg:flex transform origin-left mt-4 transition md:mr-10 duration-200 text-base text-[#283c5d] font-bold  ${
                 !scrolledFromTop ? "scale-60" : "scale-90"
               }`}
             >
@@ -81,17 +81,37 @@ export const Nav = () => {
             <ul
               className={`fixed left-0 right-0 min-h-screen px-4 pt-8 space-y-4 bg-gray-200 md:bg-gray-50 text-white transform transition duration-300 ${
                 !navOpen ? "translate-x-full" : "translate-x-0 flex flex-col"
-              } md:relative md:flex  md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
+              } md:relative md:flex  md:space-x-4 lg:space-x-6 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0`}
             >
               <li className="w-100 md:bg-gray-50 bg-gray-50 ml-10 flex flex-row items-center gap-2 text-sm rounded-md">
                 <ImHome className="text-gray-800" />
 
                 <Link
-                  className="links"
+                  className="links "
                   href="#header"
                   onClick={() => setNavOpen(false)}
                 >
                   HOME
+                </Link>
+              </li>
+              <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
+                <BsFillHouseGearFill className="text-gray-800" />
+                <Link
+                  className="links"
+                  href="#Contact"
+                  onClick={() => setNavOpen(false)}
+                >
+                  NEWS
+                </Link>
+              </li>
+              <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
+                <BsFillHouseGearFill className="text-gray-800" />
+                <Link
+                  className="links"
+                  href="#Contact"
+                  onClick={() => setNavOpen(false)}
+                >
+                  CITIZENS CHARTER
                 </Link>
               </li>
               <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">

@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     "ES-Rizal",
     "Wawa",
     "Rizal",
+    "mark prudente valdez",
   ],
 };
 

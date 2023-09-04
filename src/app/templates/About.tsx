@@ -3,9 +3,9 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="About" className="mb-12 mt-12">
+    <div id="About" className="mb-12 mt-12 ">
       <div
-        className="h-80 bg-gradient-to-r from-blue-900 to-blue-500  "
+        className="h-80 bg-gray-500/50"
         style={{
           backgroundImage: "url('/images/bga.jpg')",
           backgroundRepeat: "no-repeat",
