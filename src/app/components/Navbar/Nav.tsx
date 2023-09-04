@@ -48,8 +48,8 @@ export const Nav = () => {
           <Link href={"/"} className="flex flex-row items-center gap-3">
             <Image
               src={"/images/final.jpg"}
-              width={55}
-              height={55}
+              width={45}
+              height={45}
               alt="logo"
               className="rounded-full"
             />
