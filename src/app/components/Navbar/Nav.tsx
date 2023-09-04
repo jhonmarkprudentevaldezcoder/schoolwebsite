@@ -41,7 +41,7 @@ export const Nav = () => {
           </div>
         </div>
         <header
-          className={`fixed w-full bg-gray-50 flex md:gap-9 justify-between items-center px-4 md:px-12 transition-all duration-200 ${
+          className={`fixed w-full z-50 bg-gray-50 flex md:gap-9 justify-between items-center px-4 md:px-12 transition-all duration-200 ${
             !scrolledFromTop ? "h-20 " : "h-14 top-0 shadow-lg"
           }`}
         >

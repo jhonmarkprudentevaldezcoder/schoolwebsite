@@ -8,7 +8,7 @@ import Welcome from "./templates/Welcome";
 export default function Home() {
   return (
     <div className="bg-white ">
-      <Hero />
+      {/*  <Hero /> */}
       <Carousel />
       <Welcome />
       <About />

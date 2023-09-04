@@ -9,7 +9,6 @@ export default function About() {
         style={{
           backgroundImage: "url('/images/bgmatatag.jpg')",
           backgroundPosition: "center",
-          backgroundSize: "cover",
         }}
       ></div>
 
