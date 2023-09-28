@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import { ImHome } from "react-icons/im";
 import { BsFillHouseGearFill } from "react-icons/bs";
+import { ImFolderDownload } from "react-icons/im";
 import Image from "next/image";
 
 export const Nav = () => {
@@ -34,7 +35,7 @@ export const Nav = () => {
           } bg-[#051c40] text-slate-300 flex flex-row justify-around `}
         >
           <div className="ml-8  flex flex-row items-center gap-3 text-sm ">
-            <MdEmail className="icons" /> <p>wawaes.109480@deped.gov.ph</p>
+            <MdEmail className="icons" /> <p>kvnhs@deped.gov.ph</p>
           </div>
           <div className="mr-8 mt-1 flex flex-row items-center gap-1 text-sm  ">
             <AiFillPhone className="icons" /> +63123456723
@@ -58,7 +59,7 @@ export const Nav = () => {
                 !scrolledFromTop ? "scale-60" : "scale-90"
               }`}
             >
-              DEPED TAYO WAWA ES-RIZAL
+              K.V.N.H.S
             </p>
           </Link>
           <nav>
@@ -98,13 +99,13 @@ export const Nav = () => {
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
-                  href="#Contact"
+                  href="#News"
                   onClick={() => setNavOpen(false)}
                 >
                   NEWS
                 </Link>
               </li>
-              <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
+              {/*  <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
                   className="links"
@@ -113,7 +114,7 @@ export const Nav = () => {
                 >
                   CITIZENS CHARTER
                 </Link>
-              </li>
+              </li> */}
               <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
                 <BsFillHouseGearFill className="text-gray-800" />
                 <Link
@@ -132,6 +133,16 @@ export const Nav = () => {
                   onClick={() => setNavOpen(false)}
                 >
                   CONTACT
+                </Link>
+              </li>
+              <li className=" md:bg-gray-50 w-100 bg-gray-50  flex flex-row items-center gap-2 text-sm rounded-md">
+                <ImFolderDownload className="text-amber-800" />
+                <Link
+                  className="links "
+                  href="#Contact"
+                  onClick={() => setNavOpen(false)}
+                >
+                  DOWNLOAD APP
                 </Link>
               </li>
             </ul>

@@ -36,11 +36,12 @@ export const Footer = () => {
   return (
     <>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.683417709534!2d121.18231107625708!3d14.730482173881214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bcbc82480359%3A0xc45163ae289e22aa!2sSitio%20Wawa%20Health%20Center!5e0!3m2!1sen!2sph!4v1693805509683!5m2!1sen!2sph"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.3447667162927!2d121.1390142114666!3d14.749595973350429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bb339296dead%3A0xd54a714c35f8ed56!2sKasiglahan%20Village%20National%20High%20School!5e0!3m2!1sen!2sph!4v1695732060578!5m2!1sen!2sph"
         width="600"
         height="450"
         id="Contact"
-        className="border-none w-full px-5 py-2"
+        className="border-none w-full px-5
+      py-2"
         loading="lazy"
       ></iframe>
       <footer className="bg-[#051c40]">
@@ -55,7 +56,7 @@ export const Footer = () => {
                   height={70}
                   alt="logo"
                 />
-                DepEd Tayo Wawa ES-Rizal
+                K.V.N.H.S
               </h2>
               <p className="text-slate-200">
                 “Education is the key to success in life, and teachers make a
@@ -145,13 +146,13 @@ export const Footer = () => {
               <ul className="text-slate-200 text-sm font-sans font-medium">
                 <li className="mb-2">
                   <span className="flex flex-row items-center gap-3 ">
-                    <ImLocation2 className="icons" /> Sitio Wawa, San Rafael,
-                    Rodriguez, Rizal
+                    <ImLocation2 className="icons" /> Kasiglahan Village
+                    National High School , Rodriguez, Rizal
                   </span>
                 </li>
                 <li className="mb-2">
                   <span className="flex flex-row items-center gap-3">
-                    <MdEmail className="icons" /> wawaes.109480@deped.gov.ph
+                    <MdEmail className="icons" /> kvnhs.@deped.gov.ph
                   </span>
                 </li>
               </ul>
@@ -173,9 +174,7 @@ export const Footer = () => {
       <div className="py-2 w-100 bg-[#0b1525]  md:flex md:items-center md:justify-around">
         <span className="text-sm text-gray-400  sm:text-center p-2">
           © 2023 - 2023. All Rights Reserved.
-          <span className="text-gray-300 ml-2  text-sm">
-            DepEd Tayo Wawa ES-Rizal
-          </span>
+          <span className="text-gray-300 ml-2  text-sm">K.V.N.H.S</span>
         </span>
         <div className="flex mt-4 space-x-5    justify-center md:mt-0">
           <Link
